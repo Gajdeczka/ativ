@@ -1,0 +1,137 @@
+/* https://flatuicolors.com/palette/de */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('http://fonts.cdnfonts.com/css/patron-personal-use');
+
+:root {
+    font-family: 'Patron - Personal Use', sans-serif;
+    --ascent-color: #010024;
+    --background-color: #010018;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+header {
+    margin-bottom: 2em;
+    padding: .25em;
+    background-color: var(--ascent-color);
+    color: #d000ff;
+    box-shadow: 0px 0px 10px #00eeffc0 inset;
+    text-shadow: 0px 0px 30px #d000ffcc, 0px 0px 10px #d000ff;
+    border: 2px solid #00eeff;
+    border-radius: 6px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    font-family: 'Patron - Personal Use', sans-serif;
+    background: none;
+    border: 2px solid #00eeff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px #00eeffc0, 0 0 1px #00eeff inset;
+    color: #00eeff;
+}
+
+input::placeholder {
+    color: #00eeff39;
+}
+
+.modal {
+    border: 2px solid #00eeff; /* todo */
+    background-color: #010024; /* todo */
+    box-shadow: 0px 0px 23px -15px #000000DD;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em;
+    position: relative;
+    box-shadow: 0px 0px 5px #00eeff, 0px 0px 3px #00eeffc0 inset;
+    text-shadow: 0px 0px 15px #d000ffcc, 0px 0px 0px #d000ff;
+    color: #d000ffc0
+
+}
+
+.modal .bt-close {
+    position: absolute;
+    height: 2em;
+    width: 2em;
+    right: -.5em;
+    top: -.5em;   
+    border-radius: 50%;
+    border: 2px solid #00eeff;
+    color: #d000ff;
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+
+.modal h1 {
+    display: block;
+    /* border-bottom: 1px solid #00eeff;
+    box-shadow: 0 0, 0px 0px 5px #00eeff inset; */
+    margin-bottom: .5em;
+    padding-top: .5em;
+    margin: 0 0 .25em 0;
+    padding: 0;
+}
+
+.modal form > div {
+    margin-bottom: 1em;
+}
+
+.modal form > div > label {
+    display: block;
+}
+
+.modal form > div > input {
+    width: 100%;
+}
+
+.modal div.action {
+    display: flex;
+    justify-content: flex-end;
+    /* border-top: 1px solid #00eeff;
+    box-shadow: 0 0, 0px 0px 5px #00eeff inset; */
+    margin-top: .5em;
+    padding-top: .5em;
+}
+
+.line {
+    background-color: #00eeff;
+    height: 2px;
+    box-shadow: 0 0, 0px 0px 5px #00eeff;
+    margin: 5px 0;
+}
+
+button {
+    font-family: 'Patron - Personal Use', sans-serif;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #00eeff;
+    color: #d000ffc0;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px #00eeff, 0px 0px 0px #00eeffc0 inset;
+
+}
+
+button:hover {
+    border: 2px solid #00eeff;
+    color: #d000ff;
+    box-shadow: 0px 0px 5px #00eeff, 0px 0px 5px #00eeffc0 inset;
+    text-shadow: 0px 0px 3px #d000ffcc, 0px 0px 0px #d000ff;
+
+}
